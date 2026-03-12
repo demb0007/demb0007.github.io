@@ -13,21 +13,18 @@ header {
 }
 
 header img {
-    width: 160px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 header h1 {
     position: absolute;
-    top: 20px;
+    bottom: 10px;
     left: 20px;
     color: #c9a227;
     font-size: 28px;
-    margin: 0;
-    width: 260px;
-    line-height: 1.2;
+    white-space: nowrap;
 }
 
 nav{
@@ -55,14 +52,16 @@ nav a:last-child{
     border-right: none;
 }
 
+/* Main Content Section */
 main {
     background-color: #f8f3ea;
     padding: 25px;
     margin-top: 20px;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0;0;0;0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* Article Image Style */
 article img {
     width: 120px;
     float: left;
@@ -70,10 +69,12 @@ article img {
     margin-bottom: 15px;
 }
 
+/* Section Spacing */
 section {
     margin-top: 30px;
 }
 
+/* Section Title */
 h2 {
     color: #7a5c68;
 }
@@ -126,15 +127,4 @@ header {
 
 p{ 
   margin-bottom: 15px;
-}
-
-.gallery{
-    display: flex;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.gallery img{
-    width: 120px;
-    border-radius: 6px;
 }

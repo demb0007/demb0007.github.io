@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+ <!-- Header Section -->   
  <header>
     <img src="images/decor.png" alt="Decoration">
     <h1>DMB Creation &
@@ -21,14 +22,10 @@
     </ul>
  </nav>
  <main>
+    <!-- Article Section -->
     <article>
         <h2>Life of DMB Decoration</h2>
-<div class="gallery">
-        <img src="images/decor2.png" alt="">
-        <img src="images/decor3.png" alt="">
-        <img src="images/decor4.png" alt="">
-        <img src="images/decor5.png" alt="">
-</div>
+        <img src="images/decor3.png" alt="DMB decoration">
         
 
         <p>
@@ -52,26 +49,32 @@
         </ul>
     </section>
     <section>
+        <!--Contact Form Section-->
         <h2>Contact form</h2>
         <form>
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
 
-            <br><br>
-
             <label for="email">Email</label>
             <input type="email" id="email" name="email">
-
-            <br><br>
 
             <label for="message">Message</label>
             <textarea id="message" name="message"></textarea>
 
-            <br><br>
+            <label>Type of decoration</label>
+
+            <input type="radio" id="modern" name="style">
+            <label type="modern">Modern</label>
+
+            <input type="radio" id="classic" name="style">
+            <label for="classic">classic</label>
 
             <button type="submit">Submit</button>
         </form>
     </section>
  </main>   
+ <footer>
+    <p>&copy; 2026 DMB Deco</p>
+ </footer>
 </body>
 </html>
